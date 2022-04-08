@@ -8,6 +8,8 @@ const webpack = require( 'webpack' )
 const utils = require( './utils' )
 
 module.exports = {
+	devtool: 'eval-source-map',
+	
 	resolve: {
 		extensions: [ '.js', '.vue', '.json' ],
 		alias: {
